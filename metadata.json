@@ -1,0 +1,6 @@
+{
+  "name": "Mobile Accessories Catalog",
+  "description": "Modern product showcase and catalog for mobile phone accessories with admin panel CRUD management, search & filters, and direct contact inquiry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
