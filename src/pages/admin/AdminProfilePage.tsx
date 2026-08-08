@@ -6,7 +6,7 @@ import { User, Lock, Mail, Save, CheckCircle, AlertCircle } from 'lucide-react';
 export const AdminProfilePage: React.FC = () => {
   const { user, updateUserProfile } = useAuth();
   const [username, setUsername] = useState(user?.username || 'admin');
-  const [email, setEmail] = useState(user?.email || 'admin@apexmobiletech.com');
+  const [email, setEmail] = useState(user?.email || 'Majeedshahzad12@gmail.com');
   const [newPassword, setNewPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [success, setSuccess] = useState(false);

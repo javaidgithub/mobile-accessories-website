@@ -47,10 +47,10 @@ export const ContactPage: React.FC<ContactPageProps> = ({ contactInfo }) => {
           <div className="border-b border-slate-800 pb-4">
             <span className="text-xs text-orange-400 font-bold uppercase tracking-wider block">Official Showroom</span>
             <h2 className="text-2xl font-bold text-white mt-1">
-              {contactInfo?.shop_name || 'Apex Mobile Accessories'}
+              {contactInfo?.shop_name || 'Majeed Mobile Accessories'}
             </h2>
             <p className="text-xs text-slate-400 mt-1">
-              Managed by: <span className="text-slate-200 font-semibold">{contactInfo?.owner_name || 'Alex Sterling'}</span>
+              Managed by: <span className="text-slate-200 font-semibold">{contactInfo?.owner_name || 'Majeed Shahzad'}</span>
             </p>
           </div>
 
@@ -198,7 +198,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ contactInfo }) => {
                   </label>
                   <input
                     type="text"
-                    placeholder="e.g. +1 555-0192"
+                    placeholder="e.g. +92 300 5160803"
                     value={inquirerPhone}
                     onChange={(e) => setInquirerPhone(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-200 rounded-xl text-sm px-3.5 py-2.5 text-slate-900 focus:outline-none focus:border-orange-500"
@@ -238,7 +238,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ contactInfo }) => {
             <div className="aspect-16/9 rounded-2xl overflow-hidden border border-slate-200 bg-slate-100">
               <iframe
                 title="Shop Google Maps Location"
-                src={contactInfo?.google_map || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0192348123!2d-122.4194155!3d37.7749295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808e00000001%3A0x123456789abcdef!2sTech%20District!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"}
+                src={contactInfo?.google_map || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.3130006617894!2d72.90721167495114!3d33.64905083891364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df97fac657680d%3A0xf999514be768129d!2sMultan%20Sweets%20%26%20Bakers!5e0!3m2!1sen!2s!4v1785663320513!5m2!1sen!2s"}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

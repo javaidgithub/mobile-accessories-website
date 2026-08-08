@@ -13,7 +13,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ contactInfo, onNavigateCon
       {/* Hero Banner */}
       <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-4 shadow-xl">
         <span className="text-xs font-bold uppercase tracking-widest text-orange-400 bg-orange-500/10 border border-orange-500/30 px-3.5 py-1.5 rounded-full">
-          About {contactInfo?.shop_name || 'Apex Mobile Accessories'}
+          About {contactInfo?.shop_name || 'Majeed Mobile Accessories'}
         </span>
         <h1 className="text-3xl sm:text-5xl font-black tracking-tight">
           Your Premium Mobile Accessories Destination
@@ -63,7 +63,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ contactInfo, onNavigateCon
             Our Shop Philosophy
           </h2>
           <p className="text-sm text-slate-600 leading-relaxed">
-            In an era of counterfeit phone accessories and misleading specs, we established <strong>{contactInfo?.shop_name || 'Apex Mobile Accessories'}</strong> to serve as a reliable physical product showcase. Customers deserve clear specifications, accurate compatibility details, and direct communication with knowledgeable shop owners.
+            In an era of counterfeit phone accessories and misleading specs, we established <strong>{contactInfo?.shop_name || 'Majeed Mobile Accessories'}</strong> to serve as a reliable physical product showcase. Customers deserve clear specifications, accurate compatibility details, and direct communication with knowledgeable shop owners.
           </p>
           <div className="space-y-2 text-xs font-semibold text-slate-700">
             <div className="flex items-center gap-2">

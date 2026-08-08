@@ -44,17 +44,6 @@ export const AdminLoginPage: React.FC<AdminLoginPageProps> = ({ onLoginSuccess, 
           <p className="text-xs text-slate-500">Sign in to manage catalog products, categories & contact details</p>
         </div>
 
-        {/* Credentials Helper Hint Box */}
-        <div className="bg-orange-50 border border-orange-200 rounded-2xl p-4 text-xs text-slate-700 space-y-1">
-          <p className="font-bold text-orange-700 flex items-center gap-1">
-            <Smartphone className="w-4 h-4" /> Default Administrator Credentials:
-          </p>
-          <div className="font-mono text-slate-900 bg-white p-2 rounded-lg border border-orange-200 space-y-0.5 mt-1">
-            <p>Username: <strong className="text-orange-600">admin</strong></p>
-            <p>Password: <strong className="text-orange-600">admin123</strong></p>
-          </div>
-        </div>
-
         {error && (
           <div className="bg-rose-50 border border-rose-200 text-rose-700 p-3 rounded-xl text-xs font-semibold flex items-center gap-2">
             <AlertCircle className="w-4 h-4 shrink-0" />
